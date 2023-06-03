@@ -1,0 +1,138 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.pos-fix {
+  position: fixed;
+}
+
+.fxl {
+  float: left;
+}
+
+.fxr {
+  float: right;
+}
+
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+  content: ".";
+  visibility: hidden
+}
+
+.clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  display: block;
+}
+
+.txtWid {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+page {
+  height: 100%;
+  background: #F6F6F7;
+}
+
+.h20 {
+  height: 20rpx;
+}
+
+.arrowR {
+  position: relative;
+  display: block;
+  padding: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 36rpx;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.arrowR:last-child {
+  border: 0rpx;
+}
+
+.arrowR i.arrow {
+  margin-left: 10rpx;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.margin20L {
+  margin-left: 20rpx;
+}
+
+.textR {
+  text-align: right;
+}
+
+.font-gray {
+  color: #9E9DA2;
+}
+
+.h100 {
+  height: 100rpx;
+}
+
+.footer {
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  background: #fff;
+  padding: 20rpx;
+}
+
+.footer button {
+  width: auto;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 20rpx rgba(0, 0, 0, .2);
+}
+
+.img-mid {
+  top: 50%;
+  left: 0rpx;
+  right: 0rpx;
+  margin-top: -200rpx;
+  font-size: 30rpx;
+  color: #999;
+  line-height: 50rpx;
+  text-align: center;
+  align-items: center;
+}
+
+.img-mid image {
+  display: block;
+  width: 300rpx;
+  height: 250rpx;
+  text-align: center;
+  align-items: center;
+  margin-left: 240rpx;
+}
+
+.img-mid text {
+  width: 100%;
+  display: block;
+}

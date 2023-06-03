@@ -1,0 +1,8 @@
+<!--pages/discount/index.wxml-->
+<view class="pos-fix img-mid">
+  <view>
+    <image src="../../images/coupon-list-empty.png"></image>
+  </view>
+  <view class="clear"></view>
+  <text>您还没有定单</text>
+</view>

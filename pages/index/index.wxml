@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{ indicatorDots }}" autoplay="{{ autoplay }}" interval="{{ interval }}" duration="{{ duration }}" class="swiper-box" id="top">
+  <block wx:for-items="{{ banner_list[0].banner }}" wx:key="index">
+    <swiper-item>
+      <image class="slide-image" src="{{ item.pic_url }}" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="search pos-rel">
+  <view class="search_arr">
+    <i class="pos-abs iconfont small icon-gonggao"></i>
+    文明冲电，人人有责
+  </view>
+</view>
+<view class="homeList">
+  <view class='listView pos-rel' wx:key="index" wx:for="{{ lists }}" wx:for-index="idx" wx:for-item="list" data-id="{{ list.id }}" bindtap="listDetail">
+    <view class="title">{{ list.title }}</view>
+    <view class="subTitle txtWid">
+      <b class="fxl">{{ list.type }}</b>
+    </view>
+    <view class="pos-abs distance">
+      <i class="iconfont icon-dingwei"></i>
+      <text class="num">{{ list.distance }}m</text>
+    </view>
+    <view class="clearfix pos-abs r-tab">
+      <view class="fxl block border">充电桩使用{{ list.power }}</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,100 @@
+/**index.wxss**/
+@import "../../iconfont/iconfont.wxss";
+
+.swiper-box {
+  height: 300rpx;
+}
+
+.slide-image {
+  display: block;
+  height: 300rpx;
+  width: 100%
+}
+
+.search {
+  background: #ffffff;
+  padding: 30rpx;
+}
+
+.search_arr {
+  background: #F6F6F7;
+  padding: 5px;
+  border-radius: 10rpx;
+  color: #9599a0;
+  font-size: 30rpx;
+  padding-left: 55rpx;
+  margin-right: 60rpx;
+}
+
+.search_arr i.small {
+  left: 45rpx;
+  color: #ccc;
+  font-size: 36rpx;
+}
+
+.search_arr i.big {
+  right: 20rpx;
+  font-size: 40rpx;
+  color: #FB8538;
+  font-weight: bold;
+}
+
+.homeList {
+  padding: 30rpx;
+}
+
+.listView {
+  height: 100rpx;
+  padding: 30rpx;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+  background: #ffffff;
+}
+
+.listView .title {
+  font-size: 38rpx;
+  padding-bottom: 10rpx;
+}
+
+.listView .distance {
+  display: flex;
+  top: 100rpx;
+  right: 60rpx;
+  width: 120rpx;
+  text-align: center;
+  color: #343943;
+}
+
+.listView .distance i {
+  display: block;
+  text-align: center;
+  font-size: 40rpx;
+}
+
+.listView .distance .num {
+  font-size: 30rpx;
+}
+
+.listView .r-tab {
+  right: 20rpx;
+  top: 45rpx;
+  font-size: 22rpx;
+}
+
+.listView .r-tab .block {
+  border-radius: 5rpx;
+  margin-left: 10rpx;
+  line-height: 30rpx;
+  padding: 0px 10rpx;
+}
+
+.listView .r-tab .block.bg {
+  border: 1px solid #FB8538;
+  background: #FB8538;
+  color: #fff;
+}
+
+.listView .r-tab .block.border {
+  border: 1px solid #FB8538;
+  color: #FB8538;
+}

@@ -1,0 +1,19 @@
+<!--pages/my/index.wxml-->
+<view class="clear h20"></view>
+<view class="detail-box  pos-rel clearfix">
+  <view class="fxl head">
+    <i class="iconfont icon-Headportrait"></i>
+  </view>
+  <view class="fxl font">用户名</view>
+</view>
+<view class="clear"></view>
+<view class="detail-box pos-rel clearfix">
+  <view class="arrowR pos-rel clearfix">
+    <text class="fxl title">帮助</text>
+    <i class="fxr arrow iconfont icon-left"></i>
+  </view>
+  <view class="arrowR pos-rel clearfix">
+    <text class="fxl title">用户协议</text>
+    <i class="fxr arrow iconfont icon-left"></i>
+  </view>
+</view>

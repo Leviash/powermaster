@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/discount/index",
+    "pages/order/index",
+    "pages/my/index",
+    "pages/detail/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "电动车充电桩",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#FD632E",
+    "borderStyle": "black",
+    "list": [
+      {
+        "iconPath": "/images/charge-icon.png",
+        "selectedIconPath": "/images/charge-active-icon.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "/images/voucher-icon.png",
+        "selectedIconPath": "/images/voucher-active-icon.png",
+        "pagePath": "pages/discount/index",
+        "text": "优惠券"
+      },
+      {
+        "iconPath": "/images/order-icon.png",
+        "selectedIconPath": "/images/order-active-icon.png",
+        "pagePath": "pages/order/index",
+        "text": "订单"
+      },
+      {
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/my-active.png",
+        "pagePath": "pages/my/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

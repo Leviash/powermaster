@@ -1,0 +1,38 @@
+<view class="detail-box detail-font pos-rel clearfix">
+  <view class="title">{{ detailList.title }}</view>
+  <view class="data pos-rel icon clearfix">
+  </view>
+  <view class="address icon pos-rel clearfix">
+    <i class="pos-abs small iconfont icon-location"></i>
+    <text class="fxl font">{{ detailList.location }}</text>
+  </view>
+  <view class="pos-abs distance">
+    <i class="iconfont icon-dingwei"></i>
+    <text class="num">{{ detailList.distance }}m</text>
+  </view>
+</view>
+<view class="detail-box detail-list pos-rel clearfix">
+  <view class="arrowR pos-rel clearfix">
+    <text class="fxl title">充电桩</text>
+    <i class="fxr arrow iconfont icon-left"></i>
+    <text class="fxr subTitle margin20L">共{{ detailList.powerTotal }} /</text>
+    <text class="fxr subTitle margin20L">{{ detailList.powerUse }}可用</text>
+  </view>
+  <view class="block pos-rel clearfix">
+    <view class="font-gray">当前计费时段：{{nowTime}}-{{endTime}}</view>
+    <view class="money clearfix">
+      <text class="fxl small">￥</text>
+      <text class="fxl big">{{ detailList.price }}</text>
+    </view>
+    <view class="pos-abs detail clearfix">
+      价格详情<i class="arrow iconfont icon-left"></i>
+    </view>
+  </view>
+</view>
+<view class="clear h100"></view>
+<view class="footer pos-fix box-shadow clearfix">
+  <view class="fxl">￥</view>
+  <view class="fxl">{{ detailList.price }}</view>
+  <view class="fxl font">/4小时</view>
+  <button class="fxr btn-orange" bindtap="scanBtn">{{ scanCode }}</button>
+</view>
